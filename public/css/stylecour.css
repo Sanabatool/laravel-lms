@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #f7f4f2;
+  padding: 1rem;
+  color: black;
+}
+
+.navbar h1 {
+  flex: 1;
+  font-size: 24px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar nav a {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.account-btn {
+  background-color: #ff6a00;
+  color: white;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.coursesheading{
+  padding: 2rem;
+  background-color: #de6c26;
+  text-align: center;
+  color: white;
+}
+
+.course-container {
+  padding: 2rem;
+  background-color: #fcfcfb;
+  text-align: center;
+}
+
+.course-container h2 {
+  font-size: 36px;
+  margin-bottom: 2rem;
+  color: #f7f5f4;
+}
+
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.course-card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.course-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 1rem;
+}
+
+.course-info {
+  padding: 1rem;
+  text-align: left;
+  flex: 1;
+}
+
+.course-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.course-meta {
+  display: flex;
+  gap: 1rem;
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.course-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background-color: #007bff;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.compare-link {
+  color: #007bff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.students {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.student-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  color: #bbb;
+  font-size: 14px;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  color: #ff6600;
+  font-size: 18px;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+  color: #ff6600;
+}
+
+.footer-contact h4 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-contact p {
+  color: #ff6600;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+  color: #bbb;
+  font-size: 14px;
+}
