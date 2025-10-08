@@ -1,2 +1,2 @@
-web: vendor/bin/heroku-php-apache2 public/
-//Fix Procfile to use Apache for Railway deployment
+web: sh -c "php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT}"
+# This is the web process that starts Laravel server on Railway
